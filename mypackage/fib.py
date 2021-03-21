@@ -4,18 +4,18 @@ import random
 import scrapeasy
 
 class fibb:
- def fib(n):
-    a,b = 0,1
-    while a< n:
-        print(a, end= ' ')
-        a, b = b, a+b
+ def __init__(fib,n):
+    fib.a,fib.b = 0,1
+    while fib.a< n:
+        print(fib.a, end= ' ')
+        fib.a, fib.b = fib.b, fib.a +fib.b
     print()
  
  
- def fib2(n):
+ def fib2(fib,n):
 	result = []
-	a,b = 0,1
-	while a<n:
-		result.append(a)
-		a,b = b, a+b
+	fib.a,fib.b = 0,1
+	while fib.a<n:
+		result.append(fib.a)
+		fib.a,fib.b = fib.b, fib.a+fib.b
 	return result
