@@ -7,8 +7,8 @@ setup(
   description = 'A initial starting Helper function package created by Loveline Toussaint. It consist of a fib statement, state abbreviation module,and dataframe transpose module',   # Give a short description about your library
   author = 'Loveline toussaint',                   # Type in your name
   author_email = 'ltoosaint24@outlook.com',      # Type in your E-Mail
-  url = 'https://github.com/ltoosaint24/lambdata-ltoussaint-',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/ltoosaint24/lambdata-ltoussaint-/archive/refs/tags/v2.1.tar.gz',    # I explain this later on
+  url = 'https://github.com/ltoosaint24/lambdata',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/ltoosaint24/lambdata/archive/refs/tags/v3_1.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS','Fib', 'State', 'Abbreviation','Function','Transpose'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',
