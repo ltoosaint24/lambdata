@@ -3,7 +3,8 @@ import numpy as numy
 import random
 import scrapeasy
 
-def fib(n):
+class fibb:
+ def fib(n):
     a,b = 0,1
     while a< n:
         print(a, end= ' ')
@@ -11,7 +12,7 @@ def fib(n):
     print()
  
  
-def fib2(n):
+ def fib2(n):
 	result = []
 	a,b = 0,1
 	while a<n:
